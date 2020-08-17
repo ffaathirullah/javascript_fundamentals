@@ -1,1 +1,5 @@
 function : prosedure javascript compute / calculate smtng
+
+while : tergantung pada boolean
+
+do while : bisa perform setidaknya 1

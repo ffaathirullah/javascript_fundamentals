@@ -7,20 +7,28 @@ import { log, logTitle } from 'logger';
 logTitle('Funtion')
 /* coding examples */
 
-// function addNumbers(n1,n2){
-//    var result = n1+n2;
-//    return result;
-// }
+var number = 0;
+while(number < 5){
+    log(number);
+    number +=1
+}
 
-// var hasil = addNumbers(10, 20);
-// log(hasil);
+var i = 0;
+log("selanjutnya");
+do{
+    i++;
+    log(i);
+}while(i < 5);
 
-var person = {name: "ana", age : 20};
-log(Object.keys(person));
-log(Object.values(person));
+log("selanjutnya");
+var person = [
+    {name : "Fachrul" , age : 21},
+    {name : "Alex", age : 20}
+];
 
 
-log("James Bond".toUpperCase());
-log("James Bond".toLowerCase());
-log("James Bond".endsWith("bond"));
-
+for (var i=0; i<=person.length; i++){
+    log(person[i].name);
+    log(person[i].age);
+    log("===========================")
+}
