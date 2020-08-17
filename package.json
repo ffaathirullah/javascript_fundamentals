@@ -34,6 +34,6 @@
     "webpack-dev-server": "^2.4.1"
   },
   "scripts": {
-    "devserver": "webpack-dev-server"
+    "start": "webpack-dev-server"
   }
 }
