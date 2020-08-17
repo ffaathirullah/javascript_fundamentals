@@ -7,14 +7,14 @@ import { log, logTitle } from 'logger';
 logTitle('Array')
 /* coding examples */
 
-var names = ["Alex", "Maria", "Sam"];
-log(names);
-log(names.length);
+var additon = 2 + 2;
+var subtraction = 3-90;
+var division = 10/5;
+var kali = 20*30;
+var modulus = 5%2;
 
-for (var i of names){
-    log(i);
-}
-
-names.forEach(function(i, index, {}){
-    log(index + "-" + i);
-});
+log(additon);
+log(subtraction);
+log(division);
+log(kali);
+log(modulus);

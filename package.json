@@ -34,6 +34,10 @@
     "webpack-dev-server": "^2.4.1"
   },
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "c": "git checkout",
+    "commit": "git commit -m",
+    "push": "git push -u origin",
+    "branch": "git branch"
   }
 }
