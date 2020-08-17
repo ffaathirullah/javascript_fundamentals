@@ -7,12 +7,20 @@ import { log, logTitle } from 'logger';
 logTitle('Funtion')
 /* coding examples */
 
-var addition = (2 +2) + 2;
+// function addNumbers(n1,n2){
+//    var result = n1+n2;
+//    return result;
+// }
 
-log(addition);
+// var hasil = addNumbers(10, 20);
+// log(hasil);
 
-function addNumbers(){
-    log("add");
-}
+var person = {name: "ana", age : 20};
+log(Object.keys(person));
+log(Object.values(person));
 
-addNumbers();
+
+log("James Bond".toUpperCase());
+log("James Bond".toLowerCase());
+log("James Bond".endsWith("bond"));
+

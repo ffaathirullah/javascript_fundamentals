@@ -1,0 +1,1 @@
+function : prosedure javascript compute / calculate smtng
