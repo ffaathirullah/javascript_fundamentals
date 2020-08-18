@@ -5,24 +5,13 @@ import $ from 'jquery';
 import { log, logTitle } from 'logger';
 import { map } from 'bluebird';
 /* your imports */
-logTitle('Map || filter || reduce')
+logTitle('Callback')
 /* coding examples */
+// callback adalah function di dalam function
+function callbackExample(name, callback){
+    log(callback(name));
+}
 
-
-var mapa = [1, 2, 3, 4, 5].map(function(n){
-    return n * 2;
+callbackExample("Fachrul", function(name){
+    return "Hello " + name;
 });
-
-log(mapa);
-
-var filter1 = [1, 2, 3, 4, 5, 10 ,20, 100].filter(function(n){
-    return n % 2 == 0;
-});
-
-log(reduce1)
-
-var reduce1 = [1, 2, 3, 4, 5].reduce(function(accumulator, current){
-    return accumulator + current;
-});
-
-log(reduce1)
