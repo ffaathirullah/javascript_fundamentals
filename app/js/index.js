@@ -4,36 +4,19 @@ require('styles/main.scss');
 import $ from 'jquery';
 import { log, logTitle } from 'logger';
 /* your imports */
-logTitle('IF Statement')
+logTitle('Comparison')
 /* coding examples */
 
-var person = {
-    name: "Anna",
-    age: 19    
-}
+//comparisonn:
+log(10==10);
+log(10<10);
 
-switch(true){
-    case (person.age>17) :
-        log(person.name + " sudah dewasa")
-    break;
-    case (person.age==17) :
-        log(person.name + " belum dewasa")
-    break;
-    default :
-        log("Tidak tahu")
-}
+//logical operator
+log(10==10 && 20==20 || 100==100);
+log(!(10==20));
+log("operator :")
+log("holla" == "hello");
 
-switch(new Date().getDay()){
-    case 2: log("Selasa")
-    break;
-    default: log("I dont know")
+if ((10<=20)){
+    log("Statement was executed")
 }
-
-// log("statement")
-// if (person.age >= 19){
-//     log(person.name + " Sudah dewasa")
-// }else if(person.age < 19) {
-//     log(person.name + "belum dewasa")
-// }else{
-//     log("Undefied")
-// }
