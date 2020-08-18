@@ -12,10 +12,28 @@ var person = {
     age: 19    
 }
 
-if (person.age >= 19){
-    log(person.name + " Sudah dewasa")
-}else if(person.age < 19) {
-    log(person.name + "belum dewasa")
-}else{
-    log("Undefied")
+switch(true){
+    case (person.age>17) :
+        log(person.name + " sudah dewasa")
+    break;
+    case (person.age==17) :
+        log(person.name + " belum dewasa")
+    break;
+    default :
+        log("Tidak tahu")
 }
+
+switch(new Date().getDay()){
+    case 2: log("Selasa")
+    break;
+    default: log("I dont know")
+}
+
+// log("statement")
+// if (person.age >= 19){
+//     log(person.name + " Sudah dewasa")
+// }else if(person.age < 19) {
+//     log(person.name + "belum dewasa")
+// }else{
+//     log("Undefied")
+// }
