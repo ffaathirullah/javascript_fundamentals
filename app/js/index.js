@@ -4,9 +4,7 @@ require('styles/main.scss');
 import $ from 'jquery';
 import { log, logTitle } from 'logger';
 /* your imports */
-logTitle('Comparison')
+logTitle('Map || filter reduce')
 /* coding examples */
 
-//comparisonn:
-log(0 == false);
-log(0===false);
+
