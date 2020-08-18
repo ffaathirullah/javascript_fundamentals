@@ -4,28 +4,25 @@ require('styles/main.scss');
 import $ from 'jquery';
 import { log, logTitle } from 'logger';
 /* your imports */
-logTitle('Breaks and Continue')
+logTitle('Funtion')
 /* coding examples */
 
 
-log("Break..... :");
-var number = 0;
-while(number < 5){
-    log(number);
-    if (number == 2){
-        break
-    }
-    number++;
-}
+var addition = (2 +2) + 2;	// function addNumbers(n1,n2){
+//    var result = n1+n2;
+//    return result;
+// }
 
-log("Continue..... :");
-var angka = 0;
-while(angka < 5){
-    angka++;
 
-    if(angka < 5){
-        continue;
-    }
-    log(angka);
-}
+log(addition);	// var hasil = addNumbers(10, 20);
+// log(hasil);
 
+
+function addNumbers(){	var person = {name: "ana", age : 20};
+    log("add");	log(Object.keys(person));
+}	log(Object.values(person));
+
+
+log("James Bond".toUpperCase());
+log("James Bond".toLowerCase());
+log("James Bond".endsWith("bond"));
