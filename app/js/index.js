@@ -8,15 +8,5 @@ logTitle('Comparison')
 /* coding examples */
 
 //comparisonn:
-log(10==10);
-log(10<10);
-
-//logical operator
-log(10==10 && 20==20 || 100==100);
-log(!(10==20));
-log("operator :")
-log("holla" == "hello");
-
-if ((10<=20)){
-    log("Statement was executed")
-}
+log(0 == false);
+log(0===false);
